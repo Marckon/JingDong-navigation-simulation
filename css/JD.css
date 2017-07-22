@@ -1,0 +1,132 @@
+*{
+    font-size: 12pt;
+}
+
+#mainnav{
+    width:225px;
+    padding: 0;
+    border:solid #e4393c 2px;
+    margin-left: 20px;
+}
+
+#mainnav>li{
+    list-style: none;
+   text-indent: 8px;
+    line-height: 30px;
+    background: url("../images/arrow.png") no-repeat;
+    background-position: right;
+}
+#mainnav .lihover{
+    border: 1px solid #DDD;
+    box-shadow: 0 0 8px #DDD;
+    -moz-box-shadow: 0 0 8px #DDD;
+    -webkit-box-shadow: 0 0 8px #DDD;
+    background-image: none;
+    height:60px;
+   border-left: 4px red solid;
+    color:#e4393c;
+}
+
+#toptitle{
+    width: 225px;
+    height: 42px;
+    background-color:#e4393c;
+    text-indent: 22px;
+    color:white;
+    font: normal bold 12pt/42px "Microsoft YaHei UI";
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    width:730px;
+    left:245px;
+    box-shadow: 0 0 8px gray;
+    -moz-box-shadow: 0 0 8px gray;
+    -webkit-box-shadow: 0 0 8px gray;
+    background-color:white;
+    padding:10px;
+    top:20px;
+}
+.leftside{
+    width: 500px;
+    float:left;
+}
+dl{
+    border-bottom: solid #EEE 1px;
+    padding-bottom: 3px;
+}
+dt{
+    float:left;
+   margin-right:10px;
+    display: block;
+}
+
+dt a{
+    color:#e4393c;
+    font-weight:bold;
+    font-size:11pt;
+}
+dd{
+    display:block;
+    overflow: hidden;
+}
+dd a{
+    text-decoration: none;
+    color: #737373;
+    border-left: solid lightgray 1px;
+    display: inline-block;
+    text-indent: 8px;
+    line-height: 12px;
+    font-size: 10pt;
+    margin:0 2px;
+}
+.shedblock{/*白色遮挡*/
+    width:20px;
+    height:60px;
+    background-color: white;
+    position: relative;
+    z-index: 4;
+    float:right;
+    top:0px;
+    display: none;
+}
+
+.rightside{
+    float:left;
+    margin-left: 20px;
+    width: 210px;
+
+}
+.rightside img {
+    float: left;
+    margin-top: 10px;
+}
+.rightText{
+    clear: both;
+    padding-top: 20px;
+    list-style: none;
+    line-height: 22px;
+    color: #737373;
+    margin-left: -40px;
+}
+.rightText a{
+    cursor: pointer;
+}
+.rTtitle{
+    color:#e4393c;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+.cornerImg{
+    position:absolute;
+    bottom: -20px;
+    right: -20px;
+}
+.tip{
+    font-size: 9pt;
+    color: #737373;
+    display: none;
+    cursor: pointer;
+}
